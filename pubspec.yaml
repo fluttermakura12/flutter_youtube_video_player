@@ -1,0 +1,36 @@
+name: flutter_youtube_video_player
+description: A versatile Flutter package that allows you to easily integrate a YouTube player into your Flutter applications.
+version: 0.1.2
+homepage: https://github.com/michelmelo/flutter_youtube_video_player
+repository: https://github.com/michelmelo/flutter_youtube_video_player
+#publish_to: none
+screenshots:
+  - description: "Video player for youtube link"
+    path: screenshot.png
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+  flutter: ">=3.6.3"
+
+dependencies:
+  audio_video_progress_bar: ^2.0.1
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  get: ^4.6.6
+  http: ^1.1.0
+  screen_brightness: ^2.0.0+2
+  #subtitle: ^0.1.0-beta.3
+  subtitle: ^0.1.0-beta.3
+  video_player: ^2.8.1
+  wakelock: ^0.6.2
+  youtube_explode_dart: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/icons/
