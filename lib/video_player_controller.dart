@@ -98,6 +98,7 @@ class VideoPlayerSreenController extends GetxController
     controller.setLooping(true);
     tabController = TabController(length: 2, vsync: this);
     ScreenBrightness()
+        // ignore: deprecated_member_use
         .current
         .then((brightness) => setBrightness.value = brightness);
 

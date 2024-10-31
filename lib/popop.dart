@@ -6,8 +6,7 @@ import '/video_player_controller.dart';
 
 // ignore: must_be_immutable
 class Popup extends StatelessWidget {
-  Popup({Key? key, this.kColorWhite, this.kColorPrimary, this.kColorBlack})
-      : super(key: key);
+  Popup({super.key, this.kColorWhite, this.kColorPrimary, this.kColorBlack});
   final Color? kColorWhite;
   final Color? kColorPrimary;
   final Color? kColorBlack;

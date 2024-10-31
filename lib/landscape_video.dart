@@ -14,11 +14,11 @@ import 'video_player_controller.dart';
 
 class LandscapeVideo extends StatelessWidget {
   LandscapeVideo({
-    Key? key,
+    super.key,
     this.controlsColor,
     this.primaryColor,
     this.textColor,
-  }) : super(key: key);
+  });
   final Color? controlsColor;
   final Color? primaryColor;
   final Color? textColor;
@@ -81,6 +81,7 @@ class LandscapeVideo extends StatelessWidget {
                                 child: SvgPicture.asset(
                                   "assets/icons/back_icon.svg",
                                   package: "youtube_video_player",
+                                  // ignore: deprecated_member_use
                                   color: textColor,
                                 ),
                               ),
@@ -121,6 +122,7 @@ class LandscapeVideo extends StatelessWidget {
                                         "assets/icons/10rev.svg",
                                         width: 30,
                                         height: 30,
+                                        // ignore: deprecated_member_use
                                         color: controlsColor,
                                         package: "youtube_video_player",
                                       ),
@@ -136,6 +138,7 @@ class LandscapeVideo extends StatelessWidget {
                                             ? "assets/icons/pause_video.svg"
                                             : "assets/icons/play_video.svg",
                                         width: 48,
+                                        // ignore: deprecated_member_use
                                         color: controlsColor,
                                         package: "youtube_video_player",
                                       ),
@@ -152,6 +155,7 @@ class LandscapeVideo extends StatelessWidget {
                                           "assets/icons/10for.svg",
                                           width: 30,
                                           height: 30,
+                                          // ignore: deprecated_member_use
                                           color: controlsColor,
                                           package: "youtube_video_player"),
                                       onPressed: () {
@@ -208,6 +212,7 @@ class LandscapeVideo extends StatelessWidget {
                                               controller.setBrightness.value =
                                                   newValue;
                                               ScreenBrightness()
+                                                  // ignore: deprecated_member_use
                                                   .setScreenBrightness(
                                                       newValue);
                                             },
@@ -233,6 +238,7 @@ class LandscapeVideo extends StatelessWidget {
                                         child: SvgPicture.asset(
                                           "assets/icons/brightness.svg",
                                           package: "youtube_video_player",
+                                          // ignore: deprecated_member_use
                                           color: controlsColor,
                                           height: 20,
                                           width: 20,
@@ -261,10 +267,10 @@ class LandscapeVideo extends StatelessWidget {
                                         child: SliderTheme(
                                           data: SliderThemeData(
                                               trackHeight: 2,
-                                              thumbShape: RoundSliderThumbShape(
+                                              thumbShape: const RoundSliderThumbShape(
                                                   enabledThumbRadius: 6),
                                               overlayShape:
-                                                  RoundSliderOverlayShape(
+                                                  const RoundSliderOverlayShape(
                                                       overlayRadius: 1),
                                               thumbColor:
                                                   primaryColor ?? Colors.white,
@@ -317,6 +323,7 @@ class LandscapeVideo extends StatelessWidget {
                                           ? SvgPicture.asset(
                                               "assets/icons/volume.svg",
                                               package: "youtube_video_player",
+                                              // ignore: deprecated_member_use
                                               color: controlsColor,
                                               width: 20,
                                               height: 20,
@@ -324,6 +331,7 @@ class LandscapeVideo extends StatelessWidget {
                                           : SvgPicture.asset(
                                               "assets/icons/mute.svg",
                                               package: "youtube_video_player",
+                                              // ignore: deprecated_member_use
                                               color: controlsColor,
                                               width: 20,
                                               height: 20,
@@ -451,6 +459,7 @@ class LandscapeVideo extends StatelessWidget {
                                           "assets/icons/lock.svg",
                                           width: 30,
                                           height: 30,
+                                          // ignore: deprecated_member_use
                                           color: controlsColor,
                                           package: "youtube_video_player",
                                         )),
@@ -467,6 +476,7 @@ class LandscapeVideo extends StatelessWidget {
                                         "assets/icons/minimize.svg",
                                         width: 50,
                                         height: 50,
+                                        // ignore: deprecated_member_use
                                         color: controlsColor,
                                         package: "youtube_video_player",
                                       ),

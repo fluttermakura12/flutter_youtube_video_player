@@ -91,6 +91,7 @@ class PotraitPlayer extends StatelessWidget {
                                                 "assets/icons/10rev.svg",
                                                 width: 30,
                                                 height: 30,
+                                                // ignore: deprecated_member_use
                                                 color: controlsColor,
                                                 package: "youtube_video_player",
                                               ),
@@ -108,6 +109,7 @@ class PotraitPlayer extends StatelessWidget {
                                                     ? "assets/icons/pause_video.svg"
                                                     : "assets/icons/play_video.svg",
                                                 width: 48,
+                                                // ignore: deprecated_member_use
                                                 color: primaryColor,
                                                 package: "youtube_video_player",
                                               ),
@@ -127,6 +129,7 @@ class PotraitPlayer extends StatelessWidget {
                                                   "assets/icons/10for.svg",
                                                   width: 30,
                                                   height: 30,
+                                                  // ignore: deprecated_member_use
                                                   color: controlsColor,
                                                   package:
                                                       "youtube_video_player"),
@@ -226,6 +229,7 @@ class PotraitPlayer extends StatelessWidget {
                                                         controller.setBrightness
                                                             .value = newValue;
                                                         ScreenBrightness()
+                                                            // ignore: deprecated_member_use
                                                             .setScreenBrightness(
                                                                 newValue);
                                                       },
@@ -255,6 +259,7 @@ class PotraitPlayer extends StatelessWidget {
                                                   },
                                                   child: SvgPicture.asset(
                                                     "assets/icons/brightness.svg",
+                                                    // ignore: deprecated_member_use
                                                     color: controlsColor,
                                                     package:
                                                         "youtube_video_player",
@@ -362,6 +367,7 @@ class PotraitPlayer extends StatelessWidget {
                                                         package:
                                                             "youtube_video_player",
                                                         width: 20,
+                                                        // ignore: deprecated_member_use
                                                         color: controlsColor,
                                                         height: 20,
                                                       )
@@ -370,6 +376,7 @@ class PotraitPlayer extends StatelessWidget {
                                                         package:
                                                             "youtube_video_player",
                                                         width: 20,
+                                                        // ignore: deprecated_member_use
                                                         color: controlsColor,
                                                         height: 20,
                                                       )),
@@ -473,6 +480,7 @@ class PotraitPlayer extends StatelessWidget {
                                                     "assets/icons/fullscreen.svg",
                                                     width: 30,
                                                     height: 30,
+                                                    // ignore: deprecated_member_use
                                                     color: controlsColor,
                                                     package:
                                                         "youtube_video_player",
@@ -504,6 +512,7 @@ class PotraitPlayer extends StatelessWidget {
                                                     "assets/icons/settings.svg",
                                                     width: 30,
                                                     height: 30,
+                                                    // ignore: deprecated_member_use
                                                     color: controlsColor,
                                                     package:
                                                         "youtube_video_player",
